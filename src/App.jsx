@@ -3,6 +3,7 @@ import Header2 from "./components/Header/Header2";
 import CoreConcepts from "./components/CoreConcepts/CoreConcepts";
 import TabButton from "./components/TabButton";
 import { CORE_CONCEPTS, EXAMPLES } from "./data_resume";
+import Footer from "./components/Footer";
 
 function App() {
   const [selectedTopic, setSelectedTopic] = useState();
@@ -30,7 +31,7 @@ function App() {
       <Header2 />
       <main>
         <section id="core-concepts">
-          <h2>김철수의 핵심 역량</h2>
+          <h2>황지선의 핵심 역량</h2>
           <ul>
             <CoreConcepts {...CORE_CONCEPTS[0]} />
             <CoreConcepts {...CORE_CONCEPTS[1]} />
@@ -48,6 +49,7 @@ function App() {
           </menu>
           <div id="tab-content">{tabContent}</div>
         </section>
+        <Footer />
       </main>
     </div>
   );

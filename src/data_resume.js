@@ -1,6 +1,6 @@
 import ReactIcon from './assets/react_icon.png';
 import JsIcon from './assets/js_icon.png';
-import MonitorIcon from './assets/monitor_icon.png';
+import MonitorIcon from './assets/pythonc.png';
 import LightBulb from './assets/light_bulb_icon.png';
 
 export const CORE_CONCEPTS = [
@@ -16,8 +16,8 @@ export const CORE_CONCEPTS = [
   },
   {
     image: MonitorIcon,
-    title: 'UI/UX',
-    description: 'Figma로 디자인 협업 가능하며, CSS/SCSS로 반응형 UI 구현이 가능합니다.'
+    title: 'Python',
+    description: "Python 기반 백엔드 개발 경험이 있으며, Git을 활용한 협업과 REST API 구현, 데이터베이스 연동이 가능합니다."
   },
   {
     image: LightBulb,
@@ -47,9 +47,9 @@ function Welcome() {
 </div>`,
   },
   skills: {
-    title: 'UI/UX',
+    title: 'Python',
     description:
-      'Components accept arbitrary inputs called props. They are like function arguments.',
+      "Possess experience in Python-based backend development, including Git-based collaboration, RESTful API development, and database integration.",
     code: `
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
